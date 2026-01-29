@@ -1,0 +1,33 @@
+/* ===== بانر صفحة المنتجات ===== */
+
+.products-hero {
+  width: 100%;
+  height: 50vh;
+  background-image: url("products-bg.jpg"); /* اسم الصورة */
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.products-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.products-title {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.products-subtitle {
+  font-size: 1.2rem;
+  color: #f2c12e;
+}￼Enter
